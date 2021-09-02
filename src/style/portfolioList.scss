@@ -1,0 +1,17 @@
+li{
+  font-size: 18px;
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @include mobile {
+    font-size: 15px;
+    margin-right: 50px;
+  }
+
+  &.active{
+    background-color: $brightBlue;
+    color: #fff;
+  }
+}

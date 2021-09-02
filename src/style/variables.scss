@@ -1,0 +1,13 @@
+$mainColor: #8FD9A8;
+$yellowColor: #FFF47D;
+$brightBlue: #28B5B5;
+$darkBlue: #4B778D;
+$yellowGreen: #D2E69C;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}){
+    @content
+  }
+}
